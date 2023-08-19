@@ -78,3 +78,5 @@ df_out = df.drop(['Unnamed: 0'], axis =1)
 
 df_out.to_csv('salary_data_cleaned.csv',index = False)
 # index = False, because we don't want that Unnamed index
+
+pd.read_csv('salary_data_cleaned.csv')
